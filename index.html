@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Examples</title>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="menu">
+    <button id="startButton">Начать</button>
+</div>
+<div id="quiz" style="display: none;">
+    <div id="exampleContainer"></div>
+    <input type="text" id="answerInput" placeholder="Ваш ответ">
+    <button id="submitAnswer">Отправить</button>
+    <div id="results">
+        <p>Ошибки: <span id="errors"></span></p>
+        <p>Количество решенных примеров: <span id="solvedCount"></span></p>
+        <p>Всего показанных примеров: <span id="totalExamples"></span></p> <!-- New element -->
+    </div>
+</div>
+<script src="scripts.js"></script>
+</body>
+</html>

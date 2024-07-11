@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000000;
+    color: aliceblue;
+    margin: 0;
+}
+
+#menu {
+    text-align: center;
+}
+
+#quiz {
+    text-align: center;
+}
+
+#exampleContainer {
+    margin-bottom: 20px;
+}
+
+#answerInput {
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#results {
+    margin-top: 20px;
+}
+
